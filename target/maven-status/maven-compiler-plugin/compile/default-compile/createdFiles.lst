@@ -1,0 +1,4 @@
+com\cogmento_cucumber\base\BasePage.class
+com\cogmento_cucumber\pages\HomePage.class
+com\cogmento_cucumber\utils\SeleniumDriver.class
+com\cogmento_cucumber\pages\LoginPage.class

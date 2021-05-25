@@ -1,0 +1,3 @@
+com\cogmento_cucumber\steps\CogmentoLoginSteps.class
+com\cogmento_cucumber\runner\RunCukeTest.class
+com\cogmento_cucumber\steps\Hooks.class

@@ -1,0 +1,132 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13376888500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login into the cogmento application",
+        "description": "",
+        "id": "to-validate-login-functionality-is-working;login-into-the-cogmento-application",
+        "after": [
+          {
+            "result": {
+              "duration": 1826561000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3142057400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Login page of website \"https://ui.cogmento.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://ui.cogmento.com/",
+                  "offset": 34
+                }
+              ],
+              "location": "CogmentoLoginSteps.user_is_on_Login_page_of_website(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13802885200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"er_manpreet68@yahoo.com\" and \"SatnamKaur@1990\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "er_manpreet68@yahoo.com",
+                  "offset": 13
+                },
+                {
+                  "val": "SatnamKaur@1990",
+                  "offset": 43
+                }
+              ],
+              "location": "CogmentoLoginSteps.user_enters_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 521714500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "CogmentoLoginSteps.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2493256100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be navigated to Home page",
+            "match": {
+              "location": "CogmentoLoginSteps.user_should_be_navigated_to_Home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 237721600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Page title should be \"Cogmento CRM\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cogmento CRM",
+                  "offset": 22
+                }
+              ],
+              "location": "CogmentoLoginSteps.page_title_should_be(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To validate login functionality is working",
+    "description": "In order to validate that\r\nthe login is working fine",
+    "id": "to-validate-login-functionality-is-working",
+    "keyword": "Feature",
+    "uri": "CogmentoLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]
