@@ -16,7 +16,7 @@ import cucumber.api.junit.Cucumber;
 	glue = { "com/cogmento_cucumber/steps" }, 
 	monochrome = true, 
 	plugin = { "json:target/RunCuke/cucumber.json", "pretty","html:target/cucumber", "com.cucumber.listener.ExtentCucumberFormatter" },
-	tags = {"@Login"},
+	tags = {"@Login, @CreateNewContact, @CreateNewDeal"},
 	strict = true)
 public class RunCukeTest {
 	

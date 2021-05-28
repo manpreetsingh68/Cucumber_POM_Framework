@@ -1,6 +1,5 @@
 package com.cogmento_cucumber.base;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,7 +9,7 @@ import com.cogmento_cucumber.utils.SeleniumDriver;
 
 public class BasePage {
 	
-	private static WebDriver driver = SeleniumDriver.getDriver();
+	//private static WebDriver driver = SeleniumDriver.getDriver();
 	
 	public void click(WebElement element) {
 		waitForElementToBeClickable(element, 60);
@@ -22,18 +21,18 @@ public class BasePage {
 	}
 	
 	public void moveToElement(WebElement element) {
-		Actions action = new Actions(driver);
+		Actions action = new Actions(SeleniumDriver.getDriver());
 		action.moveToElement(element).build().perform();
 		
 	}
 	
 	public void waitForElementToBeVisible(WebElement element, int timeOutInSeconds) {
-		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
+		WebDriverWait wait = new WebDriverWait(SeleniumDriver.getDriver(), timeOutInSeconds);
 		wait.until(ExpectedConditions.visibilityOf(element)); 
 	}
 	
 	public void waitForElementToBeClickable(WebElement element, int timeOutInSeconds) {
-		WebDriverWait wait = new WebDriverWait(driver, 60);
+		WebDriverWait wait = new WebDriverWait(SeleniumDriver.getDriver(), 60);
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
 	
@@ -44,7 +43,7 @@ public class BasePage {
 	}
 	
 	public String getPageTitle() {
-		return driver.getTitle();
+		return SeleniumDriver.getDriver().getTitle();
 	}
 	
 }

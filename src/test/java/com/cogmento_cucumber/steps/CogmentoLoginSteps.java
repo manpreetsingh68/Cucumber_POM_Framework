@@ -35,8 +35,8 @@ public class CogmentoLoginSteps {
 		Assert.assertTrue("User is not able to navigaet to Home page", homePage.verifyHomePageLoads());
 	}
 
-	@Then("^Page title should be \"([^\"]*)\"$")
-	public void page_title_should_be(String title) {
+	@Then("^Page title is \"([^\"]*)\"$")
+	public void page_title_is(String title) {
 		Assert.assertEquals("Page title is not correct", title, homePage.getHomePageTitle());
 	}
 	
