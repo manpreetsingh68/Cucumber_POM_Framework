@@ -1,159 +1,74 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="106" failures="0" name="com.cogmento_cucumber.runner.RunCukeTest" time="123.991" errors="7" skipped="16">
+<testsuite tests="105" failures="0" name="com.cogmento_cucumber.runner.RunCukeTest" time="21.966" errors="0" skipped="0">
   <properties>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="Cucumber_Framework"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Cucumber_Framework/10/display/redirect?page=tests"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="JENKINS_HOME" value="C:\Users\Manpreet\.jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="3be4bae84218cd20"/>
-    <property name="POM_ARTIFACTID" value="Cucumber_Framework"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="POM_DISPLAYNAME" value="Cucumber_Framework"/>
-    <property name="NODE_LABELS" value="master"/>
-    <property name="TEMP" value="C:\Users\Manpreet\AppData\Local\Temp"/>
-    <property name="java.runtime.version" value="1.8.0_65-b17"/>
-    <property name="ANT_HOME" value="C:\Users\Manpreet\Downloads\Selenium\Apache Ant\apache-ant-1.10.1"/>
-    <property name="user.name" value="Manpreet"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
-    <property name="PROMPT" value="$P$G"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="Cucumber_Framework"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Cucumber_Framework/10/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#10"/>
-    <property name="OneDrive" value="C:\Users\Manpreet\OneDrive"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
-    <property name="LOCALAPPDATA" value="C:\Users\Manpreet\AppData\Local"/>
-    <property name="java.version" value="1.8.0_65"/>
-    <property name="PROCESSOR_LEVEL" value="6"/>
-    <property name="user.timezone" value="Asia/Calcutta"/>
-    <property name="USERNAME" value="Manpreet"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="NODE_NAME" value="master"/>
-    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
-    <property name="OneDriveConsumer" value="C:\Users\Manpreet\OneDrive"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed"/>
-    <property name="UOIPME_REG_PATH" value="C:\Program Files\Intel Corporation\USB over IP"/>
-    <property name="BUILD_ID" value="10"/>
-    <property name="PyCharm Community Edition" value="C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.4\bin;"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="HOMEDRIVE" value="C:"/>
-    <property name="maven.conf" value="C:\Users\Manpreet\Downloads\Selenium\apache-maven-3.6.3\conf"/>
-    <property name="DERBY_HOME" value="C:\Manpreet\Softwares\Apache_Derby\db-derby-10.14.2.0-bin"/>
-    <property name="java.class.version" value="52.0"/>
-    <property name="=::" value="::\"/>
-    <property name="SCITE_USERHOME" value="C:\Users\Manpreet\AppData\Local\AutoIt v3\SciTE"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="user.country" value="US"/>
-    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_65\jre"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Cucumber_Framework/10/display/redirect"/>
-    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
-    <property name="TMP" value="C:\Users\Manpreet\AppData\Local\Temp"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Cucumber_Framework/10/display/redirect?page=artifacts"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.version" value="25.65-b01"/>
-    <property name="user.variant" value=""/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Cucumber_Framework/display/redirect"/>
-    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="USERDOMAIN_ROAMINGPROFILE" value="MANPREET"/>
-    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_65"/>
-    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="HOMEPATH" value="\Users\Manpreet"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="user.script" value=""/>
-    <property name="COMPUTERNAME" value="MANPREET"/>
-    <property name="POM_GROUPID" value="com.cogmento.cucumber.framework"/>
-    <property name="user.home" value="C:\Users\Manpreet"/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-Cucumber_Framework-10"/>
-    <property name="JENKINS_SERVER_COOKIE" value="3be4bae84218cd20"/>
-    <property name="HUDSON_URL" value="http://localhost:8080/"/>
-    <property name="ProgramData" value="C:\ProgramData"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\Users\Manpreet"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Manpreet\Downloads\Selenium\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_65/bin;C:\Program Files\Java\jdk1.8.0_65/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\IntelSGXPSW\bin\x64\Release\;c:\Program Files\Intel\IntelSGXPSW\bin\win32\Release\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Manpreet\Downloads\Selenium\Maven\apache-maven-3.5.0\bin\;C:\Users\Manpreet\Downloads\Selenium\Apache Ant\apache-ant-1.10.1\bin\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Manpreet\Softwares\Apache_Derby\db-derby-10.14.2.0-bin\bin;C:\Users\Manpreet\Downloads\Selenium\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Manpreet\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Manpreet\AppData\Local\Programs\Python\Python38-32\;C:\Users\Manpreet\Downloads\Selenium\Sikuli\libs;C:\Users\Manpreet\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.4\bin;;C:\Users\Manpreet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Manpreet\AppData\Roaming\npm;."/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\Users\Manpreet\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="C:\Users\Manpreet\Downloads\Selenium\apache-maven-3.6.3"/>
-    <property name="java.class.path" value="C:\Users\Manpreet\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\Manpreet\Downloads\Selenium\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;C:\Users\Manpreet\Downloads\Selenium\apache-maven-3.6.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Manpreet\Downloads\Selenium\apache-maven-3.6.3 C:\Users\Manpreet\.jenkins\war\WEB-INF\lib\remoting-4.7.jar C:\Users\Manpreet\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\Manpreet\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 60688"/>
-    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_65/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\IntelSGXPSW\bin\x64\Release\;c:\Program Files\Intel\IntelSGXPSW\bin\win32\Release\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Manpreet\Downloads\Selenium\Maven\apache-maven-3.5.0\bin\;C:\Users\Manpreet\Downloads\Selenium\Apache Ant\apache-ant-1.10.1\bin\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Manpreet\Softwares\Apache_Derby\db-derby-10.14.2.0-bin\bin;C:\Users\Manpreet\Downloads\Selenium\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Manpreet\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Manpreet\AppData\Local\Programs\Python\Python38-32\;C:\Users\Manpreet\Downloads\Selenium\Sikuli\libs;C:\Users\Manpreet\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.4\bin;;C:\Users\Manpreet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Manpreet\AppData\Roaming\npm"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
-    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_65/bin"/>
-    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel"/>
-    <property name="SESSIONNAME" value="Console"/>
-    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
+    <property name="java.vm.version" value="25.65-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Manpreet\eclipse-workspace\Cucumber_Framework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="M2_HOME" value="C:\Users\Manpreet\Downloads\Selenium\apache-maven-3.6.3"/>
-    <property name="java.io.tmpdir" value="C:\Users\Manpreet\AppData\Local\Temp\"/>
-    <property name="CI" value="true"/>
-    <property name="OS" value="Windows_NT"/>
-    <property name="HUDSON_HOME" value="C:\Users\Manpreet\.jenkins"/>
-    <property name="PATH+MAVEN" value="C:\Users\Manpreet\Downloads\Selenium\apache-maven-3.6.3/bin"/>
-    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Cucumber_Framework/10/"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="SystemRoot" value="C:\WINDOWS"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\Manpreet\eclipse-workspace\Cucumber_Framework"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/Cucumber_Framework/"/>
-    <property name="LOGONSERVER" value="\\MANPREET"/>
-    <property name="USERDOMAIN" value="MANPREET"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Manpreet\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
-    <property name="MAVEN_HOME" value="C:\Users\Manpreet\Downloads\Selenium\apache-maven-3.6.3"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="10"/>
-    <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="PROCESSOR_REVISION" value="4e03"/>
-    <property name="ProgramW6432" value="C:\Program Files"/>
-    <property name="windir" value="C:\WINDOWS"/>
-    <property name="=C:" value="C:\Program Files\Jenkins"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="SystemDrive" value="C:"/>
-    <property name="maven3.interceptor" value="C:\Users\Manpreet\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE_TMP" value="C:\Users\Manpreet\.jenkins\workspace\Cucumber_Framework@tmp"/>
-    <property name="WORKSPACE" value="C:\Users\Manpreet\.jenkins\workspace\Cucumber_Framework"/>
-    <property name="maven3.interceptor.common" value="C:\Users\Manpreet\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Manpreet\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8623297768275820291.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_65/bin/server;C:/Program Files/Java/jre1.8.0_65/bin;C:/Program Files/Java/jre1.8.0_65/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\IntelSGXPSW\bin\x64\Release\;c:\Program Files\Intel\IntelSGXPSW\bin\win32\Release\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Manpreet\Downloads\Selenium\Maven\apache-maven-3.5.0\bin\;C:\Users\Manpreet\Downloads\Selenium\Apache Ant\apache-ant-1.10.1\bin\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Manpreet\Softwares\Apache_Derby\db-derby-10.14.2.0-bin\bin;C:\Users\Manpreet\Downloads\Selenium\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Manpreet\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Manpreet\AppData\Local\Programs\Python\Python38-32\;C:\Users\Manpreet\Downloads\Selenium\Sikuli\libs;C:\Users\Manpreet\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.4\bin;;C:\Users\Manpreet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Manpreet\AppData\Roaming\npm;C:\Users\Manpreet\eclipse\jee-2018-12\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Manpreet"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\AutoIt3\AutoItX"/>
-    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Manpreet"/>
+    <property name="java.class.path" value="C:\Users\Manpreet\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_65\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Manpreet\eclipse-workspace\Cucumber_Framework\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="| Cogmento CRM |" name="Given User is on Login page of website &quot;https://ui.cogmento.com/&quot;" time="0.003"/>
+  <testcase classname="| Cogmento CRM |" name="Given User is on Login page of website &quot;https://ui.cogmento.com/&quot;" time="0.029"/>
   <testcase classname="| Cogmento CRM |" name="When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;" time="0"/>
   <testcase classname="| Cogmento CRM |" name="And User clicks on login button" time="0"/>
   <testcase classname="| Cogmento CRM |" name="Then User should be navigated to Home page" time="0"/>
   <testcase classname="| Cogmento CRM |" name="Then Page title is &quot;Cogmento CRM&quot;" time="0"/>
-  <testcase classname="| Cogmento CRM |" name="| Cogmento CRM |" time="16.413"/>
+  <testcase classname="| Cogmento CRM |" name="| Cogmento CRM |" time="2.417"/>
   <testcase classname="| Bob | Marley | Google |" name="Given User is on Login page of website &quot;https://ui.cogmento.com/&quot;" time="0"/>
-  <testcase classname="| Bob | Marley | Google |" name="When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;" time="0.002"/>
+  <testcase classname="| Bob | Marley | Google |" name="When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;" time="0"/>
   <testcase classname="| Bob | Marley | Google |" name="And User clicks on login button" time="0"/>
   <testcase classname="| Bob | Marley | Google |" name="Then User should be navigated to Home page" time="0"/>
   <testcase classname="| Bob | Marley | Google |" name="Given User is already on Home Page" time="0"/>
@@ -161,185 +76,22 @@
   <testcase classname="| Bob | Marley | Google |" name="And User click on Create Contact button" time="0"/>
   <testcase classname="| Bob | Marley | Google |" name="And User enters contact details &quot;Bob&quot;, &quot;Marley&quot; and &quot;Google&quot;" time="0"/>
   <testcase classname="| Bob | Marley | Google |" name="And User click on Save Contact Button" time="0"/>
-  <testcase classname="| Bob | Marley | Google |" name="Then New contact should be added" time="0.001"/>
-  <testcase classname="| Bob | Marley | Google |" name="| Bob | Marley | Google |" time="2.498"/>
+  <testcase classname="| Bob | Marley | Google |" name="Then New contact should be added" time="0"/>
+  <testcase classname="| Bob | Marley | Google |" name="| Bob | Marley | Google |" time="1.154"/>
   <testcase classname="| Mark | Twain | FIS |" name="Given User is on Login page of website &quot;https://ui.cogmento.com/&quot;" time="0"/>
-  <testcase classname="| Mark | Twain | FIS |" name="When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;" time="0.017">
-    <error message="stale element reference: element is not attached to the page document
-  (Session info: chrome=90.0.4430.212)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Manpreet\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60774}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}
-Session ID: 76942382403637f232087254e02845fc" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=90.0.4430.212)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Manpreet\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60774}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}
-Session ID: 76942382403637f232087254e02845fc
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at com.cogmento_cucumber.base.BasePage.waitForElementToBeVisible(BasePage.java:31)
-	at com.cogmento_cucumber.pages.LoginPage.enterUserNameAndPassword(LoginPage.java:26)
-	at com.cogmento_cucumber.steps.CogmentoLoginSteps.user_enters_and(CogmentoLoginSteps.java:25)
-	at ✽.When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;(Login_Contacts_Deals_Companies.feature:7)
-</error>
-  </testcase>
-  <testcase classname="| Mark | Twain | FIS |" name="| Mark | Twain | FIS |" time="0.019">
-    <error message="stale element reference: element is not attached to the page document
-  (Session info: chrome=90.0.4430.212)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Manpreet\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60774}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}
-Session ID: 76942382403637f232087254e02845fc" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=90.0.4430.212)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Manpreet\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60774}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}
-Session ID: 76942382403637f232087254e02845fc
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at com.cogmento_cucumber.base.BasePage.waitForElementToBeVisible(BasePage.java:31)
-	at com.cogmento_cucumber.pages.LoginPage.enterUserNameAndPassword(LoginPage.java:26)
-	at com.cogmento_cucumber.steps.CogmentoLoginSteps.user_enters_and(CogmentoLoginSteps.java:25)
-	at ✽.When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;(Login_Contacts_Deals_Companies.feature:7)
-</error>
-  </testcase>
-  <testcase classname="| Mark | Twain | FIS |" name="And User clicks on login button" time="0.02">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Mark | Twain | FIS |" name="Then User should be navigated to Home page" time="0.02">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Mark | Twain | FIS |" name="Given User is already on Home Page" time="0.046">
-    <skipped/>
-    <system-out>
-  Background: User is already on login page of application            # Login_Contacts_Deals_Companies.feature:5
-    Given User is on Login page of website &quot;https://ui.cogmento.com/&quot; # CogmentoLoginSteps.user_is_on_Login_page_of_website(String)
-    When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;  # CogmentoLoginSteps.user_enters_and(String,String)
-      org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-        (Session info: chrome=90.0.4430.212)
-        (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-      Command duration or timeout: 0 milliseconds
-      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-      Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-      System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
-      Driver info: org.openqa.selenium.chrome.ChromeDriver
-      Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Manpreet\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60774}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}
-      Session ID: 76942382403637f232087254e02845fc
-      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-      	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-      	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-      	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-      	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-      	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-      	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-      	at java.lang.reflect.Method.invoke(Method.java:497)
-      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-      	at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)
-      	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-      	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-      	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-      	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-      	at com.cogmento_cucumber.base.BasePage.waitForElementToBeVisible(BasePage.java:31)
-      	at com.cogmento_cucumber.pages.LoginPage.enterUserNameAndPassword(LoginPage.java:26)
-      	at com.cogmento_cucumber.steps.CogmentoLoginSteps.user_enters_and(CogmentoLoginSteps.java:25)
-      	at ?.When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;(Login_Contacts_Deals_Companies.feature:7)
-
-    And User clicks on login button                                   # CogmentoLoginSteps.user_clicks_on_login_button()
-    Then User should be navigated to Home page                        # CogmentoLoginSteps.user_should_be_navigated_to_Home_page()
-</system-out>
-  </testcase>
-  <testcase classname="| Mark | Twain | FIS |" name="When User clicks on Contact from Side Menu" time="0.047">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Mark | Twain | FIS |" name="And User click on Create Contact button" time="0.047">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Mark | Twain | FIS |" name="And User enters contact details &quot;Mark&quot;, &quot;Twain&quot; and &quot;FIS&quot;" time="0.047">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Mark | Twain | FIS |" name="And User click on Save Contact Button" time="0.047">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Mark | Twain | FIS |" name="Then New contact should be added" time="0.047">
-    <skipped/>
-  </testcase>
+  <testcase classname="| Mark | Twain | FIS |" name="When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;" time="0"/>
+  <testcase classname="| Mark | Twain | FIS |" name="And User clicks on login button" time="0"/>
+  <testcase classname="| Mark | Twain | FIS |" name="Then User should be navigated to Home page" time="0"/>
+  <testcase classname="| Mark | Twain | FIS |" name="Given User is already on Home Page" time="0"/>
+  <testcase classname="| Mark | Twain | FIS |" name="When User clicks on Contact from Side Menu" time="0"/>
+  <testcase classname="| Mark | Twain | FIS |" name="And User click on Create Contact button" time="0"/>
+  <testcase classname="| Mark | Twain | FIS |" name="And User enters contact details &quot;Mark&quot;, &quot;Twain&quot; and &quot;FIS&quot;" time="0"/>
+  <testcase classname="| Mark | Twain | FIS |" name="And User click on Save Contact Button" time="0"/>
+  <testcase classname="| Mark | Twain | FIS |" name="Then New contact should be added" time="0"/>
+  <testcase classname="| Mark | Twain | FIS |" name="| Mark | Twain | FIS |" time="9.826"/>
   <testcase classname="| Harley | Quinn | Microsoft |" name="Given User is on Login page of website &quot;https://ui.cogmento.com/&quot;" time="0"/>
   <testcase classname="| Harley | Quinn | Microsoft |" name="When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;" time="0"/>
-  <testcase classname="| Harley | Quinn | Microsoft |" name="And User clicks on login button" time="0"/>
+  <testcase classname="| Harley | Quinn | Microsoft |" name="And User clicks on login button" time="0.001"/>
   <testcase classname="| Harley | Quinn | Microsoft |" name="Then User should be navigated to Home page" time="0"/>
   <testcase classname="| Harley | Quinn | Microsoft |" name="Given User is already on Home Page" time="0"/>
   <testcase classname="| Harley | Quinn | Microsoft |" name="When User clicks on Contact from Side Menu" time="0"/>
@@ -347,7 +99,7 @@ Session ID: 76942382403637f232087254e02845fc
   <testcase classname="| Harley | Quinn | Microsoft |" name="And User enters contact details &quot;Harley&quot;, &quot;Quinn&quot; and &quot;Microsoft&quot;" time="0"/>
   <testcase classname="| Harley | Quinn | Microsoft |" name="And User click on Save Contact Button" time="0"/>
   <testcase classname="| Harley | Quinn | Microsoft |" name="Then New contact should be added" time="0"/>
-  <testcase classname="| Harley | Quinn | Microsoft |" name="| Harley | Quinn | Microsoft |" time="1.319"/>
+  <testcase classname="| Harley | Quinn | Microsoft |" name="| Harley | Quinn | Microsoft |" time="1.087"/>
   <testcase classname="| Space | SpaceX | Building awesome rockets |" name="Given User is on Login page of website &quot;https://ui.cogmento.com/&quot;" time="0"/>
   <testcase classname="| Space | SpaceX | Building awesome rockets |" name="When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;" time="0"/>
   <testcase classname="| Space | SpaceX | Building awesome rockets |" name="And User clicks on login button" time="0"/>
@@ -358,19 +110,19 @@ Session ID: 76942382403637f232087254e02845fc
   <testcase classname="| Space | SpaceX | Building awesome rockets |" name="And User enters deal details &quot;Space&quot;, &quot;SpaceX&quot; and &quot;Building awesome rockets&quot;" time="0"/>
   <testcase classname="| Space | SpaceX | Building awesome rockets |" name="And User click on Save Deal Button" time="0"/>
   <testcase classname="| Space | SpaceX | Building awesome rockets |" name="Then New deal should be added" time="0"/>
-  <testcase classname="| Space | SpaceX | Building awesome rockets |" name="| Space | SpaceX | Building awesome rockets |" time="40.209"/>
+  <testcase classname="| Space | SpaceX | Building awesome rockets |" name="| Space | SpaceX | Building awesome rockets |" time="1.133"/>
   <testcase classname="| Automobile | Tesla | Battery powered cars |" name="Given User is on Login page of website &quot;https://ui.cogmento.com/&quot;" time="0"/>
   <testcase classname="| Automobile | Tesla | Battery powered cars |" name="When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;" time="0"/>
   <testcase classname="| Automobile | Tesla | Battery powered cars |" name="And User clicks on login button" time="0"/>
   <testcase classname="| Automobile | Tesla | Battery powered cars |" name="Then User should be navigated to Home page" time="0"/>
   <testcase classname="| Automobile | Tesla | Battery powered cars |" name="Given User is already on Home Page" time="0"/>
-  <testcase classname="| Automobile | Tesla | Battery powered cars |" name="When User clicks on Deals from Side Menu" time="0"/>
+  <testcase classname="| Automobile | Tesla | Battery powered cars |" name="When User clicks on Deals from Side Menu" time="0.001"/>
   <testcase classname="| Automobile | Tesla | Battery powered cars |" name="And User click on Create Deal button" time="0"/>
   <testcase classname="| Automobile | Tesla | Battery powered cars |" name="And User enters deal details &quot;Automobile&quot;, &quot;Tesla&quot; and &quot;Battery powered cars&quot;" time="0"/>
   <testcase classname="| Automobile | Tesla | Battery powered cars |" name="And User click on Save Deal Button" time="0"/>
   <testcase classname="| Automobile | Tesla | Battery powered cars |" name="Then New deal should be added" time="0"/>
-  <testcase classname="| Automobile | Tesla | Battery powered cars |" name="| Automobile | Tesla | Battery powered cars |" time="1.024"/>
-  <testcase classname="| Food manufacturing | Nestle | Making Maggi for generations |" name="Given User is on Login page of website &quot;https://ui.cogmento.com/&quot;" time="0"/>
+  <testcase classname="| Automobile | Tesla | Battery powered cars |" name="| Automobile | Tesla | Battery powered cars |" time="1.153"/>
+  <testcase classname="| Food manufacturing | Nestle | Making Maggi for generations |" name="Given User is on Login page of website &quot;https://ui.cogmento.com/&quot;" time="0.001"/>
   <testcase classname="| Food manufacturing | Nestle | Making Maggi for generations |" name="When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;" time="0"/>
   <testcase classname="| Food manufacturing | Nestle | Making Maggi for generations |" name="And User clicks on login button" time="0"/>
   <testcase classname="| Food manufacturing | Nestle | Making Maggi for generations |" name="Then User should be navigated to Home page" time="0"/>
@@ -380,7 +132,7 @@ Session ID: 76942382403637f232087254e02845fc
   <testcase classname="| Food manufacturing | Nestle | Making Maggi for generations |" name="And User enters deal details &quot;Food manufacturing&quot;, &quot;Nestle&quot; and &quot;Making Maggi for generations&quot;" time="0"/>
   <testcase classname="| Food manufacturing | Nestle | Making Maggi for generations |" name="And User click on Save Deal Button" time="0"/>
   <testcase classname="| Food manufacturing | Nestle | Making Maggi for generations |" name="Then New deal should be added" time="0"/>
-  <testcase classname="| Food manufacturing | Nestle | Making Maggi for generations |" name="| Food manufacturing | Nestle | Making Maggi for generations |" time="0.983"/>
+  <testcase classname="| Food manufacturing | Nestle | Making Maggi for generations |" name="| Food manufacturing | Nestle | Making Maggi for generations |" time="1.71"/>
   <testcase classname="| Nestle | Food manufacturing | Making Maggi for generations |" name="Given User is on Login page of website &quot;https://ui.cogmento.com/&quot;" time="0"/>
   <testcase classname="| Nestle | Food manufacturing | Making Maggi for generations |" name="When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;" time="0"/>
   <testcase classname="| Nestle | Food manufacturing | Making Maggi for generations |" name="And User clicks on login button" time="0"/>
@@ -390,537 +142,19 @@ Session ID: 76942382403637f232087254e02845fc
   <testcase classname="| Nestle | Food manufacturing | Making Maggi for generations |" name="And User click on Create Company button" time="0"/>
   <testcase classname="| Nestle | Food manufacturing | Making Maggi for generations |" name="And User enters company details &quot;Nestle&quot;, &quot;Food manufacturing&quot; and &quot;Making Maggi for generations&quot;" time="0"/>
   <testcase classname="| Nestle | Food manufacturing | Making Maggi for generations |" name="And User click on Save Company Button" time="0"/>
-  <testcase classname="| Nestle | Food manufacturing | Making Maggi for generations |" name="Then New Company should be added" time="0.002">
-    <error message="Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (5465a2d02aab888b722d5df1ba754aaa)] -&gt; xpath: //span[text()=&apos;Home&apos;]//preceding::i] (tried for 60 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Manpreet\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61057}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}
-Session ID: 5465a2d02aab888b722d5df1ba754aaa" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (5465a2d02aab888b722d5df1ba754aaa)] -&gt; xpath: //span[text()=&apos;Home&apos;]//preceding::i] (tried for 60 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Manpreet\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61057}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}
-Session ID: 5465a2d02aab888b722d5df1ba754aaa
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.cogmento_cucumber.base.BasePage.waitForElementToBeVisible(BasePage.java:31)
-	at com.cogmento_cucumber.base.BasePage.isElementPresent(BasePage.java:40)
-	at com.cogmento_cucumber.pages.CompaniesPage.verifyNewCompanyAdded(CompaniesPage.java:29)
-	at com.cogmento_cucumber.steps.CreateNewCompanySteps.new_Company_should_be_added(CreateNewCompanySteps.java:38)
-	at ✽.Then New Company should be added(Login_Contacts_Deals_Companies.feature:57)
-</error>
-  </testcase>
-  <testcase classname="| Nestle | Food manufacturing | Making Maggi for generations |" name="| Nestle | Food manufacturing | Making Maggi for generations |" time="0.002">
-    <error message="Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (5465a2d02aab888b722d5df1ba754aaa)] -&gt; xpath: //span[text()=&apos;Home&apos;]//preceding::i] (tried for 60 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Manpreet\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61057}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}
-Session ID: 5465a2d02aab888b722d5df1ba754aaa" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (5465a2d02aab888b722d5df1ba754aaa)] -&gt; xpath: //span[text()=&apos;Home&apos;]//preceding::i] (tried for 60 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Manpreet\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61057}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}
-Session ID: 5465a2d02aab888b722d5df1ba754aaa
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.cogmento_cucumber.base.BasePage.waitForElementToBeVisible(BasePage.java:31)
-	at com.cogmento_cucumber.base.BasePage.isElementPresent(BasePage.java:40)
-	at com.cogmento_cucumber.pages.CompaniesPage.verifyNewCompanyAdded(CompaniesPage.java:29)
-	at com.cogmento_cucumber.steps.CreateNewCompanySteps.new_Company_should_be_added(CreateNewCompanySteps.java:38)
-	at ✽.Then New Company should be added(Login_Contacts_Deals_Companies.feature:57)
-</error>
-  </testcase>
-  <testcase classname="| Nestle | Food manufacturing | Making Maggi for generations |" name="| Nestle | Food manufacturing | Making Maggi for generations |" time="60.123">
-    <error message="timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=90.0.4430.212)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Manpreet\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61057}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}
-Session ID: 5465a2d02aab888b722d5df1ba754aaa" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=90.0.4430.212)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Manpreet\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61057}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}
-Session ID: 5465a2d02aab888b722d5df1ba754aaa
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at com.cogmento_cucumber.steps.Hooks.tearDown(Hooks.java:25)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at cucumber.runtime.Utils$1.call(Utils.java:37)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
-	at cucumber.runtime.Utils.invoke(Utils.java:31)
-	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
-	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
-	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
-	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</error>
-    <system-err>[1622271636.605][SEVERE]: Timed out receiving message from renderer: 10.000
-[1622271636.607][WARNING]: screenshot failed, retrying
-[1622271646.608][SEVERE]: Timed out receiving message from renderer: 9.999
-[1622271656.621][SEVERE]: Timed out receiving message from renderer: 10.000
-[1622271656.621][WARNING]: screenshot failed, retrying
-[1622271666.621][SEVERE]: Timed out receiving message from renderer: 9.999
-[1622271676.626][SEVERE]: Timed out receiving message from renderer: 10.000
-[1622271676.626][WARNING]: screenshot failed, retrying
-[1622271686.627][SEVERE]: Timed out receiving message from renderer: 10.000
-</system-err>
-  </testcase>
+  <testcase classname="| Nestle | Food manufacturing | Making Maggi for generations |" name="Then New Company should be added" time="0"/>
+  <testcase classname="| Nestle | Food manufacturing | Making Maggi for generations |" name="| Nestle | Food manufacturing | Making Maggi for generations |" time="1.092"/>
   <testcase classname="| Tesla | Space | Building awesome rockets |" name="Given User is on Login page of website &quot;https://ui.cogmento.com/&quot;" time="0"/>
-  <testcase classname="| Tesla | Space | Building awesome rockets |" name="When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;" time="0.001">
-    <error message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //input[@name=&apos;email&apos;]&apos; (tried for 60 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //input[@name=&apos;email&apos;]&apos; (tried for 60 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.cogmento_cucumber.base.BasePage.waitForElementToBeVisible(BasePage.java:31)
-	at com.cogmento_cucumber.pages.LoginPage.enterUserNameAndPassword(LoginPage.java:26)
-	at com.cogmento_cucumber.steps.CogmentoLoginSteps.user_enters_and(CogmentoLoginSteps.java:25)
-	at ✽.When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;(Login_Contacts_Deals_Companies.feature:7)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;email&apos;]&quot;}
-  (Session info: chrome=90.0.4430.212)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Manpreet\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61057}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}
-Session ID: 5465a2d02aab888b722d5df1ba754aaa
-*** Element info: {Using=xpath, value=//input[@name=&apos;email&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at com.cogmento_cucumber.base.BasePage.waitForElementToBeVisible(BasePage.java:31)
-	at com.cogmento_cucumber.pages.LoginPage.enterUserNameAndPassword(LoginPage.java:26)
-	at com.cogmento_cucumber.steps.CogmentoLoginSteps.user_enters_and(CogmentoLoginSteps.java:25)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at cucumber.runtime.Utils$1.call(Utils.java:37)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
-	at cucumber.runtime.Utils.invoke(Utils.java:31)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:59)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:42)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</error>
-  </testcase>
-  <testcase classname="| Tesla | Space | Building awesome rockets |" name="| Tesla | Space | Building awesome rockets |" time="0.002">
-    <error message="Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //input[@name=&apos;email&apos;]&apos; (tried for 60 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //input[@name=&apos;email&apos;]&apos; (tried for 60 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.cogmento_cucumber.base.BasePage.waitForElementToBeVisible(BasePage.java:31)
-	at com.cogmento_cucumber.pages.LoginPage.enterUserNameAndPassword(LoginPage.java:26)
-	at com.cogmento_cucumber.steps.CogmentoLoginSteps.user_enters_and(CogmentoLoginSteps.java:25)
-	at ✽.When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;(Login_Contacts_Deals_Companies.feature:7)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;email&apos;]&quot;}
-  (Session info: chrome=90.0.4430.212)
-  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Manpreet\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61057}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}
-Session ID: 5465a2d02aab888b722d5df1ba754aaa
-*** Element info: {Using=xpath, value=//input[@name=&apos;email&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	at com.cogmento_cucumber.base.BasePage.waitForElementToBeVisible(BasePage.java:31)
-	at com.cogmento_cucumber.pages.LoginPage.enterUserNameAndPassword(LoginPage.java:26)
-	at com.cogmento_cucumber.steps.CogmentoLoginSteps.user_enters_and(CogmentoLoginSteps.java:25)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at cucumber.runtime.Utils$1.call(Utils.java:37)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
-	at cucumber.runtime.Utils.invoke(Utils.java:31)
-	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
-	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:59)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:42)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-</error>
-  </testcase>
-  <testcase classname="| Tesla | Space | Building awesome rockets |" name="And User clicks on login button" time="0.008">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Tesla | Space | Building awesome rockets |" name="Then User should be navigated to Home page" time="0.009">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Tesla | Space | Building awesome rockets |" name="Given User is already on Home Page" time="0.012">
-    <skipped/>
-    <system-out>
-  Background: User is already on login page of application            # Login_Contacts_Deals_Companies.feature:5
-    Given User is on Login page of website &quot;https://ui.cogmento.com/&quot; # CogmentoLoginSteps.user_is_on_Login_page_of_website(String)
-    When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;  # CogmentoLoginSteps.user_enters_and(String,String)
-      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //input[@name=&apos;email&apos;]&apos; (tried for 60 second(s) with 500 milliseconds interval)
-      	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-      	at com.cogmento_cucumber.base.BasePage.waitForElementToBeVisible(BasePage.java:31)
-      	at com.cogmento_cucumber.pages.LoginPage.enterUserNameAndPassword(LoginPage.java:26)
-      	at com.cogmento_cucumber.steps.CogmentoLoginSteps.user_enters_and(CogmentoLoginSteps.java:25)
-      	at ?.When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;(Login_Contacts_Deals_Companies.feature:7)
-      Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;email&apos;]&quot;}
-        (Session info: chrome=90.0.4430.212)
-        (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
-      Command duration or timeout: 0 milliseconds
-      For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-      Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-      System info: host: &apos;MANPREET&apos;, ip: &apos;192.168.1.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
-      Driver info: org.openqa.selenium.chrome.ChromeDriver
-      Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\Manpreet\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61057}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}
-      Session ID: 5465a2d02aab888b722d5df1ba754aaa
-      *** Element info: {Using=xpath, value=//input[@name=&apos;email&apos;]}
-      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-      	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-      	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-      	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-      	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-      	at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)
-      	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-      	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-      	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-      	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-      	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-      	at com.cogmento_cucumber.base.BasePage.waitForElementToBeVisible(BasePage.java:31)
-      	at com.cogmento_cucumber.pages.LoginPage.enterUserNameAndPassword(LoginPage.java:26)
-      	at com.cogmento_cucumber.steps.CogmentoLoginSteps.user_enters_and(CogmentoLoginSteps.java:25)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-      	at java.lang.reflect.Method.invoke(Method.java:497)
-      	at cucumber.runtime.Utils$1.call(Utils.java:37)
-      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
-      	at cucumber.runtime.Utils.invoke(Utils.java:31)
-      	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-      	at cucumber.runtime.Runtime.runStep(Runtime.java:299)
-      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-      	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:59)
-      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:42)
-      	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)
-      	at org.junit.runners.Suite.runChild(Suite.java:128)
-      	at org.junit.runners.Suite.runChild(Suite.java:27)
-      	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-      	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-      	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-      	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-      	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
-      	at org.junit.runners.Suite.runChild(Suite.java:128)
-      	at org.junit.runners.Suite.runChild(Suite.java:27)
-      	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-      	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-      	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-      	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-      	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
-      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-      	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-      	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-      	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-      	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-      	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-      	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)
-      	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)
-      	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
-      	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-      	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
-      	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
-      	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
-      	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
-      	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
-      	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
-      	at cucumber.api.junit.Cucumber.run(Cucumber.java:98)
-      	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
-      	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
-      	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-      	at java.lang.reflect.Method.invoke(Method.java:497)
-      	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-      	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-      	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
-
-    And User clicks on login button                                   # CogmentoLoginSteps.user_clicks_on_login_button()
-    Then User should be navigated to Home page                        # CogmentoLoginSteps.user_should_be_navigated_to_Home_page()
-</system-out>
-  </testcase>
-  <testcase classname="| Tesla | Space | Building awesome rockets |" name="When User clicks on Companies from Side Menu" time="0.012">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Tesla | Space | Building awesome rockets |" name="And User click on Create Company button" time="0.013">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Tesla | Space | Building awesome rockets |" name="And User enters company details &quot;Tesla&quot;, &quot;Space&quot; and &quot;Building awesome rockets&quot;" time="0.014">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Tesla | Space | Building awesome rockets |" name="And User click on Save Company Button" time="0.014">
-    <skipped/>
-  </testcase>
-  <testcase classname="| Tesla | Space | Building awesome rockets |" name="Then New Company should be added" time="0.015">
-    <skipped/>
-  </testcase>
+  <testcase classname="| Tesla | Space | Building awesome rockets |" name="When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;" time="0"/>
+  <testcase classname="| Tesla | Space | Building awesome rockets |" name="And User clicks on login button" time="0.001"/>
+  <testcase classname="| Tesla | Space | Building awesome rockets |" name="Then User should be navigated to Home page" time="0.001"/>
+  <testcase classname="| Tesla | Space | Building awesome rockets |" name="Given User is already on Home Page" time="0"/>
+  <testcase classname="| Tesla | Space | Building awesome rockets |" name="When User clicks on Companies from Side Menu" time="0"/>
+  <testcase classname="| Tesla | Space | Building awesome rockets |" name="And User click on Create Company button" time="0.001"/>
+  <testcase classname="| Tesla | Space | Building awesome rockets |" name="And User enters company details &quot;Tesla&quot;, &quot;Space&quot; and &quot;Building awesome rockets&quot;" time="0"/>
+  <testcase classname="| Tesla | Space | Building awesome rockets |" name="And User click on Save Company Button" time="0"/>
+  <testcase classname="| Tesla | Space | Building awesome rockets |" name="Then New Company should be added" time="0"/>
+  <testcase classname="| Tesla | Space | Building awesome rockets |" name="| Tesla | Space | Building awesome rockets |" time="1.203"/>
   <testcase classname="| Food manufacturing | Nestle | Making Maggi for gegenrations |" name="Given User is on Login page of website &quot;https://ui.cogmento.com/&quot;" time="0"/>
   <testcase classname="| Food manufacturing | Nestle | Making Maggi for gegenrations |" name="When User enters &quot;er_manpreet68@yahoo.com&quot; and &quot;SatnamKaur@1990&quot;" time="0"/>
   <testcase classname="| Food manufacturing | Nestle | Making Maggi for gegenrations |" name="And User clicks on login button" time="0"/>
@@ -928,8 +162,8 @@ Session ID: 5465a2d02aab888b722d5df1ba754aaa
   <testcase classname="| Food manufacturing | Nestle | Making Maggi for gegenrations |" name="Given User is already on Home Page" time="0"/>
   <testcase classname="| Food manufacturing | Nestle | Making Maggi for gegenrations |" name="When User clicks on Companies from Side Menu" time="0"/>
   <testcase classname="| Food manufacturing | Nestle | Making Maggi for gegenrations |" name="And User click on Create Company button" time="0"/>
-  <testcase classname="| Food manufacturing | Nestle | Making Maggi for gegenrations |" name="And User enters company details &quot;Food manufacturing&quot;, &quot;Nestle&quot; and &quot;Making Maggi for gegenrations&quot;" time="0"/>
+  <testcase classname="| Food manufacturing | Nestle | Making Maggi for gegenrations |" name="And User enters company details &quot;Food manufacturing&quot;, &quot;Nestle&quot; and &quot;Making Maggi for gegenrations&quot;" time="0.001"/>
   <testcase classname="| Food manufacturing | Nestle | Making Maggi for gegenrations |" name="And User click on Save Company Button" time="0"/>
   <testcase classname="| Food manufacturing | Nestle | Making Maggi for gegenrations |" name="Then New Company should be added" time="0"/>
-  <testcase classname="| Food manufacturing | Nestle | Making Maggi for gegenrations |" name="| Food manufacturing | Nestle | Making Maggi for gegenrations |" time="0.955"/>
+  <testcase classname="| Food manufacturing | Nestle | Making Maggi for gegenrations |" name="| Food manufacturing | Nestle | Making Maggi for gegenrations |" time="1.155"/>
 </testsuite>

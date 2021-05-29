@@ -1,0 +1,161 @@
+21:00:04,988 DEBUG devpinoyLogger:39 - Chrome browser is launched!
+21:00:11,396 DEBUG devpinoyLogger:52 - Navigated to URL: https://ui.cogmento.com/
+21:00:15,006 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (21f334bc8a405ceb4da8a5f8f299ff33)] -> xpath: //input[@name='email']] found on page
+21:00:15,328 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (21f334bc8a405ceb4da8a5f8f299ff33)] -> xpath: //input[@name='email']] value-> er_manpreet68@yahoo.com
+21:00:15,528 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (21f334bc8a405ceb4da8a5f8f299ff33)] -> xpath: //input[@name='password']] value-> SatnamKaur@1990
+21:00:15,692 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (21f334bc8a405ceb4da8a5f8f299ff33)] -> xpath: //div[text()='Login']]
+21:00:17,429 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (21f334bc8a405ceb4da8a5f8f299ff33)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:00:26,491 DEBUG devpinoyLogger:39 - Chrome browser is launched!
+21:00:32,989 DEBUG devpinoyLogger:52 - Navigated to URL: https://ui.cogmento.com/
+21:00:35,284 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (97ef0d2ff6a32876bb36b74718b6d3d2)] -> xpath: //input[@name='email']] found on page
+21:00:35,564 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (97ef0d2ff6a32876bb36b74718b6d3d2)] -> xpath: //input[@name='email']] value-> er_manpreet68@yahoo.com
+21:00:35,777 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (97ef0d2ff6a32876bb36b74718b6d3d2)] -> xpath: //input[@name='password']] value-> SatnamKaur@1990
+21:00:36,020 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (97ef0d2ff6a32876bb36b74718b6d3d2)] -> xpath: //div[text()='Login']]
+21:00:37,320 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (97ef0d2ff6a32876bb36b74718b6d3d2)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:00:37,435 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (97ef0d2ff6a32876bb36b74718b6d3d2)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:00:37,799 DEBUG devpinoyLogger:28 - Moved to element-> [[ChromeDriver: chrome on XP (97ef0d2ff6a32876bb36b74718b6d3d2)] -> xpath: //a[@class='item'][@href='/contacts']]
+21:00:38,710 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (97ef0d2ff6a32876bb36b74718b6d3d2)] -> xpath: //span[text()='Contacts']]
+21:01:09,840 DEBUG devpinoyLogger:17 - Clicked on element-> Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+21:01:10,249 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (97ef0d2ff6a32876bb36b74718b6d3d2)] -> xpath: //input[@name='first_name']] value-> Bob
+21:01:10,885 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (97ef0d2ff6a32876bb36b74718b6d3d2)] -> xpath: //input[@name='last_name']] value-> Marley
+21:01:11,185 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (97ef0d2ff6a32876bb36b74718b6d3d2)] -> xpath: //div[@name='company']//input] value-> Google
+21:01:11,725 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (97ef0d2ff6a32876bb36b74718b6d3d2)] -> xpath: //button[text()='Save']]
+21:01:11,757 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (97ef0d2ff6a32876bb36b74718b6d3d2)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:01:18,420 DEBUG devpinoyLogger:39 - Chrome browser is launched!
+21:01:26,202 DEBUG devpinoyLogger:52 - Navigated to URL: https://ui.cogmento.com/
+21:01:30,645 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (d6aa492d3cb350f498d054bcf4db4de8)] -> xpath: //input[@name='email']] found on page
+21:01:31,073 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (d6aa492d3cb350f498d054bcf4db4de8)] -> xpath: //input[@name='email']] value-> er_manpreet68@yahoo.com
+21:01:31,533 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (d6aa492d3cb350f498d054bcf4db4de8)] -> xpath: //input[@name='password']] value-> SatnamKaur@1990
+21:01:31,871 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (d6aa492d3cb350f498d054bcf4db4de8)] -> xpath: //div[text()='Login']]
+21:01:33,730 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (d6aa492d3cb350f498d054bcf4db4de8)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:01:34,627 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (d6aa492d3cb350f498d054bcf4db4de8)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:01:34,756 DEBUG devpinoyLogger:28 - Moved to element-> [[ChromeDriver: chrome on XP (d6aa492d3cb350f498d054bcf4db4de8)] -> xpath: //a[@class='item'][@href='/contacts']]
+21:01:38,966 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (d6aa492d3cb350f498d054bcf4db4de8)] -> xpath: //span[text()='Contacts']]
+21:02:09,864 DEBUG devpinoyLogger:17 - Clicked on element-> Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+21:02:13,559 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (d6aa492d3cb350f498d054bcf4db4de8)] -> xpath: //input[@name='first_name']] value-> Mark
+21:02:14,903 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (d6aa492d3cb350f498d054bcf4db4de8)] -> xpath: //input[@name='last_name']] value-> Twain
+21:02:16,073 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (d6aa492d3cb350f498d054bcf4db4de8)] -> xpath: //div[@name='company']//input] value-> FIS
+21:02:22,903 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (d6aa492d3cb350f498d054bcf4db4de8)] -> xpath: //button[text()='Save']]
+21:02:26,877 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (d6aa492d3cb350f498d054bcf4db4de8)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:02:45,136 DEBUG devpinoyLogger:39 - Chrome browser is launched!
+21:03:22,014 DEBUG devpinoyLogger:52 - Navigated to URL: https://ui.cogmento.com/
+21:03:28,326 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (f2aa43ad4949987b48e438c44d74c07b)] -> xpath: //input[@name='email']] found on page
+21:03:28,793 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (f2aa43ad4949987b48e438c44d74c07b)] -> xpath: //input[@name='email']] value-> er_manpreet68@yahoo.com
+21:03:29,092 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (f2aa43ad4949987b48e438c44d74c07b)] -> xpath: //input[@name='password']] value-> SatnamKaur@1990
+21:03:29,388 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (f2aa43ad4949987b48e438c44d74c07b)] -> xpath: //div[text()='Login']]
+21:03:32,381 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (f2aa43ad4949987b48e438c44d74c07b)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:03:38,975 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (f2aa43ad4949987b48e438c44d74c07b)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:03:39,415 DEBUG devpinoyLogger:28 - Moved to element-> [[ChromeDriver: chrome on XP (f2aa43ad4949987b48e438c44d74c07b)] -> xpath: //a[@class='item'][@href='/contacts']]
+21:03:40,065 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (f2aa43ad4949987b48e438c44d74c07b)] -> xpath: //span[text()='Contacts']]
+21:04:11,216 DEBUG devpinoyLogger:17 - Clicked on element-> Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+21:04:11,928 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (f2aa43ad4949987b48e438c44d74c07b)] -> xpath: //input[@name='first_name']] value-> Harley
+21:04:12,419 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (f2aa43ad4949987b48e438c44d74c07b)] -> xpath: //input[@name='last_name']] value-> Quinn
+21:04:12,619 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (f2aa43ad4949987b48e438c44d74c07b)] -> xpath: //div[@name='company']//input] value-> Microsoft
+21:04:13,080 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (f2aa43ad4949987b48e438c44d74c07b)] -> xpath: //button[text()='Save']]
+21:04:13,148 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (f2aa43ad4949987b48e438c44d74c07b)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:04:19,818 DEBUG devpinoyLogger:39 - Chrome browser is launched!
+21:04:25,924 DEBUG devpinoyLogger:52 - Navigated to URL: https://ui.cogmento.com/
+21:04:28,674 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (c702da70584d209b95348d43f0d56fc2)] -> xpath: //input[@name='email']] found on page
+21:04:28,910 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (c702da70584d209b95348d43f0d56fc2)] -> xpath: //input[@name='email']] value-> er_manpreet68@yahoo.com
+21:04:29,103 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (c702da70584d209b95348d43f0d56fc2)] -> xpath: //input[@name='password']] value-> SatnamKaur@1990
+21:04:29,275 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (c702da70584d209b95348d43f0d56fc2)] -> xpath: //div[text()='Login']]
+21:04:30,444 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (c702da70584d209b95348d43f0d56fc2)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:04:30,504 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (c702da70584d209b95348d43f0d56fc2)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:04:30,777 DEBUG devpinoyLogger:28 - Moved to element-> [[ChromeDriver: chrome on XP (c702da70584d209b95348d43f0d56fc2)] -> xpath: //a[@class='item'][@href='/deals']]
+21:04:31,336 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (c702da70584d209b95348d43f0d56fc2)] -> xpath: //span[text()='Deals']]
+21:05:01,990 DEBUG devpinoyLogger:17 - Clicked on element-> Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+21:05:02,300 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (c702da70584d209b95348d43f0d56fc2)] -> xpath: //input[@name='title']] value-> Space
+21:05:02,479 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (c702da70584d209b95348d43f0d56fc2)] -> xpath: //div[@name='company']//input] value-> SpaceX
+21:05:03,395 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (c702da70584d209b95348d43f0d56fc2)] -> xpath: //textarea[@name='description']] value-> Building awesome rockets
+21:05:03,559 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (c702da70584d209b95348d43f0d56fc2)] -> xpath: //button[text()='Save']]
+21:05:03,605 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (c702da70584d209b95348d43f0d56fc2)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:05:10,417 DEBUG devpinoyLogger:39 - Chrome browser is launched!
+21:05:16,270 DEBUG devpinoyLogger:52 - Navigated to URL: https://ui.cogmento.com/
+21:05:19,751 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (ff312f2afdc34622b1c0b2dc7acbb466)] -> xpath: //input[@name='email']] found on page
+21:05:20,027 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (ff312f2afdc34622b1c0b2dc7acbb466)] -> xpath: //input[@name='email']] value-> er_manpreet68@yahoo.com
+21:05:20,270 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (ff312f2afdc34622b1c0b2dc7acbb466)] -> xpath: //input[@name='password']] value-> SatnamKaur@1990
+21:05:20,555 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (ff312f2afdc34622b1c0b2dc7acbb466)] -> xpath: //div[text()='Login']]
+21:05:21,776 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (ff312f2afdc34622b1c0b2dc7acbb466)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:05:21,854 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (ff312f2afdc34622b1c0b2dc7acbb466)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:05:22,082 DEBUG devpinoyLogger:28 - Moved to element-> [[ChromeDriver: chrome on XP (ff312f2afdc34622b1c0b2dc7acbb466)] -> xpath: //a[@class='item'][@href='/deals']]
+21:05:22,501 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (ff312f2afdc34622b1c0b2dc7acbb466)] -> xpath: //span[text()='Deals']]
+21:05:53,187 DEBUG devpinoyLogger:17 - Clicked on element-> Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+21:05:53,584 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (ff312f2afdc34622b1c0b2dc7acbb466)] -> xpath: //input[@name='title']] value-> Automobile
+21:05:53,745 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (ff312f2afdc34622b1c0b2dc7acbb466)] -> xpath: //div[@name='company']//input] value-> Tesla
+21:05:54,451 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (ff312f2afdc34622b1c0b2dc7acbb466)] -> xpath: //textarea[@name='description']] value-> Battery powered cars
+21:05:54,680 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (ff312f2afdc34622b1c0b2dc7acbb466)] -> xpath: //button[text()='Save']]
+21:05:54,726 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (ff312f2afdc34622b1c0b2dc7acbb466)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:06:01,329 DEBUG devpinoyLogger:39 - Chrome browser is launched!
+21:06:07,458 DEBUG devpinoyLogger:52 - Navigated to URL: https://ui.cogmento.com/
+21:06:09,305 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (de87ddda5bfb5fa8e02bb24eea92bfd2)] -> xpath: //input[@name='email']] found on page
+21:06:09,564 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (de87ddda5bfb5fa8e02bb24eea92bfd2)] -> xpath: //input[@name='email']] value-> er_manpreet68@yahoo.com
+21:06:09,766 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (de87ddda5bfb5fa8e02bb24eea92bfd2)] -> xpath: //input[@name='password']] value-> SatnamKaur@1990
+21:06:10,004 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (de87ddda5bfb5fa8e02bb24eea92bfd2)] -> xpath: //div[text()='Login']]
+21:06:11,271 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (de87ddda5bfb5fa8e02bb24eea92bfd2)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:06:11,340 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (de87ddda5bfb5fa8e02bb24eea92bfd2)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:06:11,660 DEBUG devpinoyLogger:28 - Moved to element-> [[ChromeDriver: chrome on XP (de87ddda5bfb5fa8e02bb24eea92bfd2)] -> xpath: //a[@class='item'][@href='/deals']]
+21:06:12,169 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (de87ddda5bfb5fa8e02bb24eea92bfd2)] -> xpath: //span[text()='Deals']]
+21:06:42,960 DEBUG devpinoyLogger:17 - Clicked on element-> Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+21:06:43,500 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (de87ddda5bfb5fa8e02bb24eea92bfd2)] -> xpath: //input[@name='title']] value-> Food manufacturing
+21:06:43,672 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (de87ddda5bfb5fa8e02bb24eea92bfd2)] -> xpath: //div[@name='company']//input] value-> Nestle
+21:06:45,195 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (de87ddda5bfb5fa8e02bb24eea92bfd2)] -> xpath: //textarea[@name='description']] value-> Making Maggi for generations
+21:06:45,367 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (de87ddda5bfb5fa8e02bb24eea92bfd2)] -> xpath: //button[text()='Save']]
+21:06:45,410 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (de87ddda5bfb5fa8e02bb24eea92bfd2)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:06:52,899 DEBUG devpinoyLogger:39 - Chrome browser is launched!
+21:07:01,390 DEBUG devpinoyLogger:52 - Navigated to URL: https://ui.cogmento.com/
+21:07:03,816 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (198ac42aea315cb315c4cba5b45ec933)] -> xpath: //input[@name='email']] found on page
+21:07:04,249 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (198ac42aea315cb315c4cba5b45ec933)] -> xpath: //input[@name='email']] value-> er_manpreet68@yahoo.com
+21:07:04,581 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (198ac42aea315cb315c4cba5b45ec933)] -> xpath: //input[@name='password']] value-> SatnamKaur@1990
+21:07:05,038 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (198ac42aea315cb315c4cba5b45ec933)] -> xpath: //div[text()='Login']]
+21:07:06,435 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (198ac42aea315cb315c4cba5b45ec933)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:07:07,290 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (198ac42aea315cb315c4cba5b45ec933)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:07:07,855 DEBUG devpinoyLogger:28 - Moved to element-> [[ChromeDriver: chrome on XP (198ac42aea315cb315c4cba5b45ec933)] -> xpath: //a[@class='item'][@href='/companies']]
+21:07:13,532 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (198ac42aea315cb315c4cba5b45ec933)] -> xpath: //span[text()='Companies']]
+21:07:44,631 DEBUG devpinoyLogger:17 - Clicked on element-> Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+21:07:45,475 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (198ac42aea315cb315c4cba5b45ec933)] -> xpath: //input[@name='name']] value-> Nestle
+21:07:46,655 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (198ac42aea315cb315c4cba5b45ec933)] -> xpath: //textarea[@name='description']] value-> Food manufacturing
+21:07:48,770 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (198ac42aea315cb315c4cba5b45ec933)] -> xpath: //input[@name='industry']] value-> Making Maggi for generations
+21:07:49,089 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (198ac42aea315cb315c4cba5b45ec933)] -> xpath: //button[text()='Save']]
+21:07:49,138 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (198ac42aea315cb315c4cba5b45ec933)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:07:55,914 DEBUG devpinoyLogger:39 - Chrome browser is launched!
+21:08:02,069 DEBUG devpinoyLogger:52 - Navigated to URL: https://ui.cogmento.com/
+21:08:05,368 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (f768b593b9e8da4467d105dcf12a645e)] -> xpath: //input[@name='email']] found on page
+21:08:05,765 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (f768b593b9e8da4467d105dcf12a645e)] -> xpath: //input[@name='email']] value-> er_manpreet68@yahoo.com
+21:08:06,080 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (f768b593b9e8da4467d105dcf12a645e)] -> xpath: //input[@name='password']] value-> SatnamKaur@1990
+21:08:06,304 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (f768b593b9e8da4467d105dcf12a645e)] -> xpath: //div[text()='Login']]
+21:08:07,696 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (f768b593b9e8da4467d105dcf12a645e)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:08:07,835 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (f768b593b9e8da4467d105dcf12a645e)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:08:08,336 DEBUG devpinoyLogger:28 - Moved to element-> [[ChromeDriver: chrome on XP (f768b593b9e8da4467d105dcf12a645e)] -> xpath: //a[@class='item'][@href='/companies']]
+21:08:08,834 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (f768b593b9e8da4467d105dcf12a645e)] -> xpath: //span[text()='Companies']]
+21:08:39,759 DEBUG devpinoyLogger:17 - Clicked on element-> Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+21:08:40,480 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (f768b593b9e8da4467d105dcf12a645e)] -> xpath: //input[@name='name']] value-> Tesla
+21:08:40,965 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (f768b593b9e8da4467d105dcf12a645e)] -> xpath: //textarea[@name='description']] value-> Space
+21:08:42,489 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (f768b593b9e8da4467d105dcf12a645e)] -> xpath: //input[@name='industry']] value-> Building awesome rockets
+21:08:42,820 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (f768b593b9e8da4467d105dcf12a645e)] -> xpath: //button[text()='Save']]
+21:08:42,872 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (f768b593b9e8da4467d105dcf12a645e)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:08:50,079 DEBUG devpinoyLogger:39 - Chrome browser is launched!
+21:08:57,115 DEBUG devpinoyLogger:52 - Navigated to URL: https://ui.cogmento.com/
+21:09:00,107 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (8a0512ae9e633c4726ddaa578526c21d)] -> xpath: //input[@name='email']] found on page
+21:09:00,402 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (8a0512ae9e633c4726ddaa578526c21d)] -> xpath: //input[@name='email']] value-> er_manpreet68@yahoo.com
+21:09:00,634 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (8a0512ae9e633c4726ddaa578526c21d)] -> xpath: //input[@name='password']] value-> SatnamKaur@1990
+21:09:00,843 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (8a0512ae9e633c4726ddaa578526c21d)] -> xpath: //div[text()='Login']]
+21:09:02,858 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (8a0512ae9e633c4726ddaa578526c21d)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:09:02,952 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (8a0512ae9e633c4726ddaa578526c21d)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:09:03,347 DEBUG devpinoyLogger:28 - Moved to element-> [[ChromeDriver: chrome on XP (8a0512ae9e633c4726ddaa578526c21d)] -> xpath: //a[@class='item'][@href='/companies']]
+21:09:03,956 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (8a0512ae9e633c4726ddaa578526c21d)] -> xpath: //span[text()='Companies']]
+21:09:34,820 DEBUG devpinoyLogger:17 - Clicked on element-> Proxy element for: DefaultElementLocator 'By.xpath: //button[text()='Create']'
+21:09:36,712 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (8a0512ae9e633c4726ddaa578526c21d)] -> xpath: //input[@name='name']] value-> Food manufacturing
+21:09:37,236 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (8a0512ae9e633c4726ddaa578526c21d)] -> xpath: //textarea[@name='description']] value-> Nestle
+21:09:38,869 DEBUG devpinoyLogger:22 - Sent keys on element-> [[ChromeDriver: chrome on XP (8a0512ae9e633c4726ddaa578526c21d)] -> xpath: //input[@name='industry']] value-> Making Maggi for gegenrations
+21:09:39,153 DEBUG devpinoyLogger:17 - Clicked on element-> [[ChromeDriver: chrome on XP (8a0512ae9e633c4726ddaa578526c21d)] -> xpath: //button[text()='Save']]
+21:09:39,199 DEBUG devpinoyLogger:34 - Element[[ChromeDriver: chrome on XP (8a0512ae9e633c4726ddaa578526c21d)] -> xpath: //span[text()='Home']//preceding::i] found on page
+21:09:40,435 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21:09:40,440 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21:09:40,444 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21:09:40,446 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21:09:40,447 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Manpreet/.m2/repository/com/relevantcodes/extentreports/2.41.0/extentreports-2.41.0.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21:09:41,242 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21:09:41,242 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21:09:41,243 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21:09:41,244 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21:09:41,244 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Manpreet/.m2/repository/com/relevantcodes/extentreports/2.41.0/extentreports-2.41.0.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
