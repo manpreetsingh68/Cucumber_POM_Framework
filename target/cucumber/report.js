@@ -49,7 +49,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 11055890800,
+  "duration": 10489210900,
   "status": "passed"
 });
 formatter.background({
@@ -89,7 +89,7 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_is_on_Login_page_of_website(String)"
 });
 formatter.result({
-  "duration": 2279556400,
+  "duration": 8340885000,
   "status": "passed"
 });
 formatter.match({
@@ -106,21 +106,21 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 2593822400,
+  "duration": 6380261600,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 249538100,
+  "duration": 5298223100,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_should_be_navigated_to_Home_page()"
 });
 formatter.result({
-  "duration": 1248546300,
+  "duration": 2302685900,
   "status": "passed"
 });
 formatter.scenario({
@@ -155,11 +155,12 @@ formatter.match({
   "location": "CogmentoLoginSteps.page_title_is(String)"
 });
 formatter.result({
-  "duration": 16773000,
+  "duration": 28575000,
   "status": "passed"
 });
+formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 1459176400,
+  "duration": 16407216300,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -252,7 +253,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 9514332500,
+  "duration": 10326547100,
   "status": "passed"
 });
 formatter.background({
@@ -292,7 +293,7 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_is_on_Login_page_of_website(String)"
 });
 formatter.result({
-  "duration": 2129054400,
+  "duration": 2466140200,
   "status": "passed"
 });
 formatter.match({
@@ -309,21 +310,21 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 2872976400,
+  "duration": 3033733700,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 270553500,
+  "duration": 258037700,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_should_be_navigated_to_Home_page()"
 });
 formatter.result({
-  "duration": 1338068700,
+  "duration": 1436874900,
   "status": "passed"
 });
 formatter.scenario({
@@ -379,21 +380,21 @@ formatter.match({
   "location": "CreateNewContactSteps.user_is_already_on_Home_Page()"
 });
 formatter.result({
-  "duration": 58693400,
+  "duration": 131525400,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContactSteps.user_clicks_on_Contact_from_Side_Menu()"
 });
 formatter.result({
-  "duration": 914559900,
+  "duration": 894798700,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContactSteps.user_click_on_Create_button()"
 });
 formatter.result({
-  "duration": 684671100,
+  "duration": 894462000,
   "status": "passed"
 });
 formatter.match({
@@ -414,29 +415,30 @@ formatter.match({
   "location": "CreateNewContactSteps.user_enters_contact_details_and(String,String,String)"
 });
 formatter.result({
-  "duration": 1383143000,
+  "duration": 2188444900,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContactSteps.user_click_on_Save_Button()"
 });
 formatter.result({
-  "duration": 437249100,
+  "duration": 557749600,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContactSteps.new_contact_should_be_added()"
 });
 formatter.result({
-  "duration": 122440100,
+  "duration": 205405000,
   "status": "passed"
 });
+formatter.embedding("image/png", "embedded1.png");
 formatter.after({
-  "duration": 813492700,
+  "duration": 2495295200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9613338900,
+  "duration": 10960080000,
   "status": "passed"
 });
 formatter.background({
@@ -476,7 +478,7 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_is_on_Login_page_of_website(String)"
 });
 formatter.result({
-  "duration": 1757865400,
+  "duration": 1866583900,
   "status": "passed"
 });
 formatter.match({
@@ -493,22 +495,21 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 2703476700,
-  "status": "passed"
+  "duration": 4809792500,
+  "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d90.0.4430.212)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MANPREET\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_65\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\Manpreet\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60774}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}\nSession ID: 76942382403637f232087254e02845fc\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:497)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat com.cogmento_cucumber.base.BasePage.waitForElementToBeVisible(BasePage.java:31)\r\n\tat com.cogmento_cucumber.pages.LoginPage.enterUserNameAndPassword(LoginPage.java:26)\r\n\tat com.cogmento_cucumber.steps.CogmentoLoginSteps.user_enters_and(CogmentoLoginSteps.java:25)\r\n\tat ✽.When User enters \"er_manpreet68@yahoo.com\" and \"SatnamKaur@1990\"(Login_Contacts_Deals_Companies.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 248468200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_should_be_navigated_to_Home_page()"
 });
 formatter.result({
-  "duration": 1976774300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 31,
@@ -563,22 +564,19 @@ formatter.match({
   "location": "CreateNewContactSteps.user_is_already_on_Home_Page()"
 });
 formatter.result({
-  "duration": 60029500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateNewContactSteps.user_clicks_on_Contact_from_Side_Menu()"
 });
 formatter.result({
-  "duration": 875947700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateNewContactSteps.user_click_on_Create_button()"
 });
 formatter.result({
-  "duration": 829036700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -598,29 +596,27 @@ formatter.match({
   "location": "CreateNewContactSteps.user_enters_contact_details_and(String,String,String)"
 });
 formatter.result({
-  "duration": 1777159200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateNewContactSteps.user_click_on_Save_Button()"
 });
 formatter.result({
-  "duration": 352805000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateNewContactSteps.new_contact_should_be_added()"
 });
 formatter.result({
-  "duration": 71444800,
-  "status": "passed"
+  "status": "skipped"
 });
+formatter.embedding("image/png", "embedded2.png");
 formatter.after({
-  "duration": 748816000,
+  "duration": 2592585500,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9536268800,
+  "duration": 11120127900,
   "status": "passed"
 });
 formatter.background({
@@ -660,7 +656,7 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_is_on_Login_page_of_website(String)"
 });
 formatter.result({
-  "duration": 2441120200,
+  "duration": 2368166100,
   "status": "passed"
 });
 formatter.match({
@@ -677,21 +673,21 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 2864309500,
+  "duration": 14286638800,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 271593400,
+  "duration": 1545199600,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_should_be_navigated_to_Home_page()"
 });
 formatter.result({
-  "duration": 1208791100,
+  "duration": 1218547800,
   "status": "passed"
 });
 formatter.scenario({
@@ -747,21 +743,21 @@ formatter.match({
   "location": "CreateNewContactSteps.user_is_already_on_Home_Page()"
 });
 formatter.result({
-  "duration": 69460000,
+  "duration": 71853600,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContactSteps.user_clicks_on_Contact_from_Side_Menu()"
 });
 formatter.result({
-  "duration": 699659500,
+  "duration": 7727983500,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContactSteps.user_click_on_Create_button()"
 });
 formatter.result({
-  "duration": 514550700,
+  "duration": 530508100,
   "status": "passed"
 });
 formatter.match({
@@ -782,25 +778,26 @@ formatter.match({
   "location": "CreateNewContactSteps.user_enters_contact_details_and(String,String,String)"
 });
 formatter.result({
-  "duration": 1517121500,
+  "duration": 1607014600,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContactSteps.user_click_on_Save_Button()"
 });
 formatter.result({
-  "duration": 559049200,
+  "duration": 423193300,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewContactSteps.new_contact_should_be_added()"
 });
 formatter.result({
-  "duration": 102037800,
+  "duration": 84718700,
   "status": "passed"
 });
+formatter.embedding("image/png", "embedded3.png");
 formatter.after({
-  "duration": 838101400,
+  "duration": 1285801400,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -893,7 +890,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 9548041700,
+  "duration": 9896323800,
   "status": "passed"
 });
 formatter.background({
@@ -933,7 +930,7 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_is_on_Login_page_of_website(String)"
 });
 formatter.result({
-  "duration": 1666990100,
+  "duration": 6400231100,
   "status": "passed"
 });
 formatter.match({
@@ -950,21 +947,21 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 2739619700,
+  "duration": 7307076300,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 203921400,
+  "duration": 3195831900,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_should_be_navigated_to_Home_page()"
 });
 formatter.result({
-  "duration": 1316236400,
+  "duration": 1206229600,
   "status": "passed"
 });
 formatter.scenario({
@@ -1020,21 +1017,21 @@ formatter.match({
   "location": "CreateNewContactSteps.user_is_already_on_Home_Page()"
 });
 formatter.result({
-  "duration": 100901700,
+  "duration": 60753800,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewDealsStep.user_clicks_on_Deals_from_Side_Menu()"
 });
 formatter.result({
-  "duration": 875610600,
+  "duration": 725439800,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewDealsStep.user_click_on_Create_button()"
 });
 formatter.result({
-  "duration": 466870700,
+  "duration": 627368300,
   "status": "passed"
 });
 formatter.match({
@@ -1055,29 +1052,30 @@ formatter.match({
   "location": "CreateNewDealsStep.user_enters_deal_details_and(String,String,String)"
 });
 formatter.result({
-  "duration": 2031840000,
+  "duration": 1020640400,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewDealsStep.user_click_on_Save_Button()"
 });
 formatter.result({
-  "duration": 155153600,
+  "duration": 5267624100,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewDealsStep.new_deal_should_be_added()"
 });
 formatter.result({
-  "duration": 47608800,
+  "duration": 42360300,
   "status": "passed"
 });
+formatter.embedding("image/png", "embedded4.png");
 formatter.after({
-  "duration": 743939200,
+  "duration": 40207434800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9545923000,
+  "duration": 9976185900,
   "status": "passed"
 });
 formatter.background({
@@ -1117,7 +1115,7 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_is_on_Login_page_of_website(String)"
 });
 formatter.result({
-  "duration": 2091331500,
+  "duration": 1666276700,
   "status": "passed"
 });
 formatter.match({
@@ -1134,21 +1132,21 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 2846076600,
+  "duration": 3084405200,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 376397200,
+  "duration": 237965300,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_should_be_navigated_to_Home_page()"
 });
 formatter.result({
-  "duration": 1259744200,
+  "duration": 1342781000,
   "status": "passed"
 });
 formatter.scenario({
@@ -1204,21 +1202,21 @@ formatter.match({
   "location": "CreateNewContactSteps.user_is_already_on_Home_Page()"
 });
 formatter.result({
-  "duration": 89038800,
+  "duration": 66073500,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewDealsStep.user_clicks_on_Deals_from_Side_Menu()"
 });
 formatter.result({
-  "duration": 762297100,
+  "duration": 764684900,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewDealsStep.user_click_on_Create_button()"
 });
 formatter.result({
-  "duration": 493150500,
+  "duration": 530525600,
   "status": "passed"
 });
 formatter.match({
@@ -1239,29 +1237,30 @@ formatter.match({
   "location": "CreateNewDealsStep.user_enters_deal_details_and(String,String,String)"
 });
 formatter.result({
-  "duration": 2282124900,
+  "duration": 1590068700,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewDealsStep.user_click_on_Save_Button()"
 });
 formatter.result({
-  "duration": 169563700,
+  "duration": 597766400,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewDealsStep.new_deal_should_be_added()"
 });
 formatter.result({
-  "duration": 58939300,
+  "duration": 54810200,
   "status": "passed"
 });
+formatter.embedding("image/png", "embedded5.png");
 formatter.after({
-  "duration": 810974300,
+  "duration": 1023238000,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9508722800,
+  "duration": 9636853100,
   "status": "passed"
 });
 formatter.background({
@@ -1301,7 +1300,7 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_is_on_Login_page_of_website(String)"
 });
 formatter.result({
-  "duration": 2068138600,
+  "duration": 1875425100,
   "status": "passed"
 });
 formatter.match({
@@ -1318,21 +1317,21 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 2781575900,
+  "duration": 2505283200,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 208944200,
+  "duration": 234982800,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_should_be_navigated_to_Home_page()"
 });
 formatter.result({
-  "duration": 1514454800,
+  "duration": 1628863400,
   "status": "passed"
 });
 formatter.scenario({
@@ -1388,21 +1387,21 @@ formatter.match({
   "location": "CreateNewContactSteps.user_is_already_on_Home_Page()"
 });
 formatter.result({
-  "duration": 65254900,
+  "duration": 68560400,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewDealsStep.user_clicks_on_Deals_from_Side_Menu()"
 });
 formatter.result({
-  "duration": 599352900,
+  "duration": 809808900,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewDealsStep.user_click_on_Create_button()"
 });
 formatter.result({
-  "duration": 538255700,
+  "duration": 1033347200,
   "status": "passed"
 });
 formatter.match({
@@ -1423,25 +1422,26 @@ formatter.match({
   "location": "CreateNewDealsStep.user_enters_deal_details_and(String,String,String)"
 });
 formatter.result({
-  "duration": 1866456700,
+  "duration": 2400113300,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewDealsStep.user_click_on_Save_Button()"
 });
 formatter.result({
-  "duration": 284254700,
+  "duration": 185970000,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewDealsStep.new_deal_should_be_added()"
 });
 formatter.result({
-  "duration": 47524900,
+  "duration": 44995300,
   "status": "passed"
 });
+formatter.embedding("image/png", "embedded6.png");
 formatter.after({
-  "duration": 922034100,
+  "duration": 981234500,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -1534,7 +1534,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 9546482600,
+  "duration": 10150942700,
   "status": "passed"
 });
 formatter.background({
@@ -1574,7 +1574,7 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_is_on_Login_page_of_website(String)"
 });
 formatter.result({
-  "duration": 2238416300,
+  "duration": 1957572900,
   "status": "passed"
 });
 formatter.match({
@@ -1591,21 +1591,21 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 2561105300,
+  "duration": 4136450800,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 273217000,
+  "duration": 5325350000,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_should_be_navigated_to_Home_page()"
 });
 formatter.result({
-  "duration": 1302054000,
+  "duration": 1414356100,
   "status": "passed"
 });
 formatter.scenario({
@@ -1661,21 +1661,21 @@ formatter.match({
   "location": "CreateNewContactSteps.user_is_already_on_Home_Page()"
 });
 formatter.result({
-  "duration": 99418000,
+  "duration": 577488000,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewCompanySteps.user_clicks_on_Companies_from_Side_Menu()"
 });
 formatter.result({
-  "duration": 5180934600,
+  "duration": 12655973200,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewCompanySteps.user_click_on_Create_Company_button()"
 });
 formatter.result({
-  "duration": 404397500,
+  "duration": 5657035400,
   "status": "passed"
 });
 formatter.match({
@@ -1696,29 +1696,31 @@ formatter.match({
   "location": "CreateNewCompanySteps.user_enters_company_details_and(String,String,String)"
 });
 formatter.result({
-  "duration": 3570943700,
+  "duration": 7642558500,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewCompanySteps.user_click_on_Save_Company_Button()"
 });
 formatter.result({
-  "duration": 217899400,
+  "duration": 5448358700,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewCompanySteps.new_Company_should_be_added()"
 });
 formatter.result({
-  "duration": 63917800,
-  "status": "passed"
+  "duration": 60230183900,
+  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on XP (5465a2d02aab888b722d5df1ba754aaa)] -\u003e xpath: //span[text()\u003d\u0027Home\u0027]//preceding::i] (tried for 60 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MANPREET\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_65\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\Manpreet\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61057}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}\nSession ID: 5465a2d02aab888b722d5df1ba754aaa\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat com.cogmento_cucumber.base.BasePage.waitForElementToBeVisible(BasePage.java:31)\r\n\tat com.cogmento_cucumber.base.BasePage.isElementPresent(BasePage.java:40)\r\n\tat com.cogmento_cucumber.pages.CompaniesPage.verifyNewCompanyAdded(CompaniesPage.java:29)\r\n\tat com.cogmento_cucumber.steps.CreateNewCompanySteps.new_Company_should_be_added(CreateNewCompanySteps.java:38)\r\n\tat ✽.Then New Company should be added(Login_Contacts_Deals_Companies.feature:57)\r\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 766018900,
-  "status": "passed"
+  "duration": 60103854800,
+  "error_message": "org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000\n  (Session info: chrome\u003d90.0.4430.212)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MANPREET\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_65\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\Manpreet\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61057}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}\nSession ID: 5465a2d02aab888b722d5df1ba754aaa\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)\r\n\tat com.cogmento_cucumber.steps.Hooks.tearDown(Hooks.java:25)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:497)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:37)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:31)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:211)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:98)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:497)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
+  "status": "failed"
 });
 formatter.before({
-  "duration": 9593923600,
+  "duration": 57800,
   "status": "passed"
 });
 formatter.background({
@@ -1758,7 +1760,7 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_is_on_Login_page_of_website(String)"
 });
 formatter.result({
-  "duration": 1706657400,
+  "duration": 532321600,
   "status": "passed"
 });
 formatter.match({
@@ -1775,22 +1777,21 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 3095930700,
-  "status": "passed"
+  "duration": 90677680200,
+  "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.xpath: //input[@name\u003d\u0027email\u0027]\u0027 (tried for 60 second(s) with 500 milliseconds interval)\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat com.cogmento_cucumber.base.BasePage.waitForElementToBeVisible(BasePage.java:31)\r\n\tat com.cogmento_cucumber.pages.LoginPage.enterUserNameAndPassword(LoginPage.java:26)\r\n\tat com.cogmento_cucumber.steps.CogmentoLoginSteps.user_enters_and(CogmentoLoginSteps.java:25)\r\n\tat ✽.When User enters \"er_manpreet68@yahoo.com\" and \"SatnamKaur@1990\"(Login_Contacts_Deals_Companies.feature:7)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name\u003d\u0027email\u0027]\"}\n  (Session info: chrome\u003d90.0.4430.212)\n  (Driver info: chromedriver\u003d72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform\u003dWindows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MANPREET\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_65\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\\Users\\Manpreet\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61057}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 90.0.4430.212, webStorageEnabled: true}\nSession ID: 5465a2d02aab888b722d5df1ba754aaa\n*** Element info: {Using\u003dxpath, value\u003d//input[@name\u003d\u0027email\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat com.cogmento_cucumber.base.BasePage.waitForElementToBeVisible(BasePage.java:31)\r\n\tat com.cogmento_cucumber.pages.LoginPage.enterUserNameAndPassword(LoginPage.java:26)\r\n\tat com.cogmento_cucumber.steps.CogmentoLoginSteps.user_enters_and(CogmentoLoginSteps.java:25)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:497)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:37)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:13)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:31)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:299)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:59)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:42)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:91)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:93)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:98)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:497)\r\n\tat org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)\r\n\tat org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 224423700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_should_be_navigated_to_Home_page()"
 });
 formatter.result({
-  "duration": 1143201100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 62,
@@ -1845,22 +1846,19 @@ formatter.match({
   "location": "CreateNewContactSteps.user_is_already_on_Home_Page()"
 });
 formatter.result({
-  "duration": 80753200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateNewCompanySteps.user_clicks_on_Companies_from_Side_Menu()"
 });
 formatter.result({
-  "duration": 680411200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateNewCompanySteps.user_click_on_Create_Company_button()"
 });
 formatter.result({
-  "duration": 598784300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -1880,29 +1878,27 @@ formatter.match({
   "location": "CreateNewCompanySteps.user_enters_company_details_and(String,String,String)"
 });
 formatter.result({
-  "duration": 2627686300,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateNewCompanySteps.user_click_on_Save_Company_Button()"
 });
 formatter.result({
-  "duration": 160570000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "CreateNewCompanySteps.new_Company_should_be_added()"
 });
 formatter.result({
-  "duration": 57018100,
-  "status": "passed"
+  "status": "skipped"
 });
+formatter.embedding("image/png", "embedded7.png");
 formatter.after({
-  "duration": 741732000,
+  "duration": 6437112200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9525381400,
+  "duration": 10175177400,
   "status": "passed"
 });
 formatter.background({
@@ -1942,7 +1938,7 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_is_on_Login_page_of_website(String)"
 });
 formatter.result({
-  "duration": 1588215100,
+  "duration": 1799238800,
   "status": "passed"
 });
 formatter.match({
@@ -1959,21 +1955,21 @@ formatter.match({
   "location": "CogmentoLoginSteps.user_enters_and(String,String)"
 });
 formatter.result({
-  "duration": 2596553700,
+  "duration": 2682672100,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_clicks_on_login_button()"
 });
 formatter.result({
-  "duration": 407749700,
+  "duration": 202772700,
   "status": "passed"
 });
 formatter.match({
   "location": "CogmentoLoginSteps.user_should_be_navigated_to_Home_page()"
 });
 formatter.result({
-  "duration": 1879957500,
+  "duration": 1719092500,
   "status": "passed"
 });
 formatter.scenario({
@@ -2029,21 +2025,21 @@ formatter.match({
   "location": "CreateNewContactSteps.user_is_already_on_Home_Page()"
 });
 formatter.result({
-  "duration": 82990000,
+  "duration": 45215300,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewCompanySteps.user_clicks_on_Companies_from_Side_Menu()"
 });
 formatter.result({
-  "duration": 708685700,
+  "duration": 487201800,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewCompanySteps.user_click_on_Create_Company_button()"
 });
 formatter.result({
-  "duration": 509092100,
+  "duration": 658063900,
   "status": "passed"
 });
 formatter.match({
@@ -2064,25 +2060,26 @@ formatter.match({
   "location": "CreateNewCompanySteps.user_enters_company_details_and(String,String,String)"
 });
 formatter.result({
-  "duration": 3628185000,
+  "duration": 3696031900,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewCompanySteps.user_click_on_Save_Company_Button()"
 });
 formatter.result({
-  "duration": 184077800,
+  "duration": 157376900,
   "status": "passed"
 });
 formatter.match({
   "location": "CreateNewCompanySteps.new_Company_should_be_added()"
 });
 formatter.result({
-  "duration": 47876000,
+  "duration": 43828400,
   "status": "passed"
 });
+formatter.embedding("image/png", "embedded8.png");
 formatter.after({
-  "duration": 745872300,
+  "duration": 954415600,
   "status": "passed"
 });
 });

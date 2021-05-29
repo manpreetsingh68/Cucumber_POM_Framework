@@ -22,10 +22,8 @@ public class Hooks {
 	public static void tearDown(Scenario scenario) {
 		WebDriver driver = SeleniumDriver.getDriver();
 		
-		if(scenario.isFailed()) {
-			byte[] screenshotBytes = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
-			scenario.embed(screenshotBytes, "image/png");
-		}
+		byte[] screenshotBytes = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+		scenario.embed(screenshotBytes, "image/png");
 		
 		SeleniumDriver.tearDown();
 	}
