@@ -1,3 +1,4 @@
+com\cogmento_cucumber\pages\CompaniesPage.class
 com\cogmento_cucumber\base\BasePage.class
 com\cogmento_cucumber\pages\CreateNewContactPage.class
 com\cogmento_cucumber\pages\HomePage.class
@@ -7,3 +8,4 @@ com\cogmento_cucumber\pages\CreateNewDealPage.class
 com\cogmento_cucumber\pages\DealsPage.class
 com\cogmento_cucumber\utils\SeleniumDriver.class
 com\cogmento_cucumber\base\SideMenuBar.class
+com\cogmento_cucumber\pages\CreateNewCompanyPage.class

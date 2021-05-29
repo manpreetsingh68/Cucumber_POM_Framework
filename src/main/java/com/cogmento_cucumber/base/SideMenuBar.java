@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.cogmento_cucumber.pages.CompaniesPage;
 import com.cogmento_cucumber.pages.ContactsPage;
 import com.cogmento_cucumber.pages.DealsPage;
 import com.cogmento_cucumber.utils.SeleniumDriver;
@@ -21,6 +22,12 @@ public class SideMenuBar extends BasePage {
 	
 	@FindBy(xpath = "//a[@class='item'][@href='/deals']")
 	private WebElement lnkDeals;
+	
+	@FindBy(xpath = "//span[text()='Companies']")
+	private WebElement lnkCompaniesSpan;
+	
+	@FindBy(xpath = "//a[@class='item'][@href='/companies']")
+	private WebElement lnkCompanies;
 	
 	public SideMenuBar() {
 		PageFactory.initElements(SeleniumDriver.getDriver(), this);
@@ -40,8 +47,11 @@ public class SideMenuBar extends BasePage {
 		return new ContactsPage();
 	}
 
-	public void navigateToCompanies() {
-
+	public CompaniesPage navigateToCompanies() {
+		moveToElement(lnkCompanies);
+		click(lnkCompaniesSpan);
+		
+		return new CompaniesPage();
 	}
 
 	public DealsPage navigateToDeals() {

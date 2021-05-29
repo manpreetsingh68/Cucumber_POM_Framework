@@ -1,3 +1,4 @@
+com\cogmento_cucumber\steps\CreateNewCompanySteps.class
 com\cogmento_cucumber\steps\CogmentoLoginSteps.class
 com\cogmento_cucumber\steps\CreateNewDealsStep.class
 com\cogmento_cucumber\steps\CreateNewContactSteps.class
